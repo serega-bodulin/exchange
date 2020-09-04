@@ -1,0 +1,115 @@
+body{
+    background: rgb(244, 244, 244);
+    margin: 0;
+}
+.iconbox{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iconbox__icon{
+    width: 200px;
+    height: 180px;
+}
+
+/*текст*/
+.text{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    height: 100px;
+}
+.text__head{
+    color: rgb(118, 184, 168);
+    font-size: 40px;
+    font-weight: 700;
+}
+.text__explantion{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/*ввод*/
+.input-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    height: 300px;
+    
+}
+.input-form__convert{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    /*background-color: red;*/
+    height: 80px;
+    width: 650px;
+}
+input:focus{
+    outline: none;
+}
+
+.input-form__button-and-value{
+    display: flex;
+    justify-content: space-between;
+    width: 650px;
+    align-items: center;
+    
+}
+.input-form__button{
+    background-color: rgb(118, 184, 168);;
+    height: 40px;
+    width: 70px;
+    border-radius: 10px;
+    color: rgb(244, 244, 244);
+    font-size: 17px;
+    border-color: #aaa;
+    border: 1px;
+}
+.input-form__button:focus{
+    outline: none; 
+}
+button:hover{
+    box-shadow:  1px 1px 2px 0px #aaa;
+}
+.select{
+    width: 105px;
+    height: 50px;
+    font-size: 36px;
+    font-weight: bold;
+    background-color: rgb(244, 244, 244);
+    border-color: #bbb;
+    border-radius: 10px;
+    padding: 3px;
+    outline: none;
+}
+option:focus{
+    outline: none;
+}
+.input-form__value{
+    width: 200px;
+    height: 50px;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px;
+    border-radius: 15px;
+}
+.value{
+    background-color: rgb(244, 244, 244);
+}
+p{
+    font-size: 25px;
+    color: rgb(118, 184, 168);
+    margin: 0px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

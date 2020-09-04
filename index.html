@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ExchangeRateCalculator</title>
+</head>
+<body>
+    <div class="iconbox">
+        <img src="icon.png" alt="icon" class="iconbox__icon">
+    </div>
+    <div class="text"> 
+        <div class="text__head">Exchange Rate Calculator</div>
+        <div class="text__explantion">Choose the currency and the amounts to get the exchange rate</div>
+    </div>
+    <div class="input-form">
+        <div class="input-form__convert">
+            <select class="select" id="courseFrom">
+                <option value="USD">USD</option>
+                <option value="AED">AED</option>
+                <option value="CZK">CZK</option>
+                <option value="EUR">EUR</option>
+                <option value="JPY">JPY</option>
+                <option value="RUB">RUB</option>
+            </select>
+
+            <input type="text" class="input-form__value" id = "first">
+        </div>
+        <div class ="input-form__button-and-value">
+            <button class="input-form__button" id="button" onclick="get()">Swap</button>
+            <p id='value'> </p>
+        </div>
+        <div class="input-form__convert">
+            <select class="select" id="courseTo">
+                <option value="USD">USD</option>
+                <option value="AED">AED</option>
+                <option value="CZK">CZK</option>
+                <option value="EUR">EUR</option>
+                <option value="JPY">JPY</option>
+                <option value="RUB">RUB</option>
+            </select>
+
+            <input type="text" class="input-form__value" id ="second">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
